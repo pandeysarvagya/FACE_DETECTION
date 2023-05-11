@@ -32,7 +32,7 @@ To use this program, you can run the `main.py` file.Sure, here's a brief usage:
 
 Usage:
 
-To detect faces in an image and draw a square around them, call the `detect_face(image_path)` function with the path to the image file as a parameter.
+To detect faces in an image and draw a square around them, call the `face_cascade.detectMultiScale(image_path)` function with the path to the image file as a parameter.
 The function will display the image with the face detection squares overlaid. If there are multiple faces in the image, the function will draw a square around each face. If there are no faces in the image, the function will display a message indicating that no faces were detected.
 
 Note that this function uses the pre-trained frontal face Haar Cascade classifier provided by OpenCV for face detection.
