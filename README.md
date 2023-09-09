@@ -1,5 +1,5 @@
-# FACE_DETECTION
-Introduction:
+### FACE DETECTION
+##  Introduction:
 
 This face detection program is developed using Python, OpenCV library, and object-oriented programming concepts. The program uses a Haar Cascade classifier and edge detection techniques to detect faces in images or real-time video streams.
 
@@ -26,7 +26,7 @@ This program is developed using object-oriented programming concepts. The main c
 - FaceDetector: This class is responsible for detecting faces in an image or video stream using the Haar Cascade classifier and Canny edge detection algorithm.
 - VideoStream: This class is responsible for capturing and processing real-time video streams.
 
-Usage:
+##  Usage:
 
 To use this program, you can run the `main.py` file.Sure, here's a brief usage:
 
@@ -37,6 +37,6 @@ The function will display the image with the face detection squares overlaid. If
 
 Note that this function uses the pre-trained frontal face Haar Cascade classifier provided by OpenCV for face detection.
 
-Conclusion:
+##  Conclusion:
 
 This face detection program is an example of how to use Python, OpenCV library, and object-oriented programming concepts to detect faces in images or real-time video streams. The program uses a Haar Cascade classifier and edge detection techniques to achieve high accuracy in face detection.
